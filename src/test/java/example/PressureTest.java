@@ -34,7 +34,7 @@ public class PressureTest {
     @Test
     public void testException()
     {
-        Pressure pressure = new Pressure(1D);
+        Pressure pressure = new Pressure(1d);
         boolean thrown;
 
         thrown = false;
